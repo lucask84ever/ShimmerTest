@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ShimmerPOC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nbg-P4-dRH">
+                                <rect key="frame" x="0.0" y="44" width="414" height="200"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scatman" translatesAutoresizingMaskIntoConstraints="NO" id="tWA-WG-cZg">
+                                        <rect key="frame" x="20" y="55" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="8VG-LD-5uQ"/>
+                                            <constraint firstAttribute="width" constant="90" id="A7j-TT-oTP"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="skeletonCornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scatman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf8-8J-br4">
+                                        <rect key="frame" x="130" y="55" width="187" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="lo9-Ph-ld5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="skeletonLineSpacing">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lastLineFillPercent">
+                                                <integer key="value" value="40"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scatman John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-W1-RAY">
+                                        <rect key="frame" x="130" y="89.5" width="117" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="sMO-tw-cjD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Best of Scatman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0T-i2-T1z">
+                                        <rect key="frame" x="130" y="124.5" width="157.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.03624573524" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="dzq-W1-RAY" firstAttribute="centerY" secondItem="tWA-WG-cZg" secondAttribute="centerY" id="G9O-PF-brv"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dzq-W1-RAY" secondAttribute="trailing" constant="20" symbolic="YES" id="Pi0-GR-uUg"/>
+                                    <constraint firstItem="q0T-i2-T1z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Mf8-8J-br4" secondAttribute="leading" id="RfP-Sr-3iR"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="q0T-i2-T1z" secondAttribute="trailing" constant="20" symbolic="YES" id="TmT-3n-ZaM"/>
+                                    <constraint firstAttribute="height" constant="200" id="UOU-Ud-hOr"/>
+                                    <constraint firstItem="Mf8-8J-br4" firstAttribute="top" secondItem="tWA-WG-cZg" secondAttribute="top" id="XaH-48-Bpk"/>
+                                    <constraint firstItem="q0T-i2-T1z" firstAttribute="leading" secondItem="tWA-WG-cZg" secondAttribute="trailing" constant="20" id="heE-Y5-7Ra"/>
+                                    <constraint firstItem="tWA-WG-cZg" firstAttribute="centerY" secondItem="nbg-P4-dRH" secondAttribute="centerY" id="iRa-aL-hyK"/>
+                                    <constraint firstItem="tWA-WG-cZg" firstAttribute="leading" secondItem="nbg-P4-dRH" secondAttribute="leading" constant="20" id="jim-uK-k4t"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mf8-8J-br4" secondAttribute="trailing" constant="97" id="m8a-h0-Twl"/>
+                                    <constraint firstItem="dzq-W1-RAY" firstAttribute="leading" secondItem="Mf8-8J-br4" secondAttribute="leading" id="thI-ua-ouX"/>
+                                    <constraint firstItem="q0T-i2-T1z" firstAttribute="bottom" secondItem="tWA-WG-cZg" secondAttribute="bottom" id="xwk-rr-A9B"/>
+                                </constraints>
+                            </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XVU-KZ-9qD">
+                                <rect key="frame" x="183.5" y="811" width="49" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="cbk-MT-aFX"/>
+                                    <constraint firstAttribute="height" constant="31" id="oqR-gB-zAh"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changedState:" destination="BYZ-38-t0r" eventType="valueChanged" id="6FR-wL-r6J"/>
+                                </connections>
+                            </switch>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Puk-s6-9Sd">
+                                <rect key="frame" x="0.0" y="244" width="414" height="200"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="lastBaseline" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ezv-iV-o0h">
+                                        <rect key="frame" x="20" y="40" width="374" height="120"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scatman" translatesAutoresizingMaskIntoConstraints="NO" id="VKh-S7-E0T">
+                                                <rect key="frame" x="0.0" y="11.5" width="90" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="90" id="Plr-cV-EI6"/>
+                                                    <constraint firstAttribute="height" constant="90" id="VGg-la-4hb"/>
+                                                </constraints>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="skeletonCornerRadius">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Um7-H1-jg8">
+                                                <rect key="frame" x="110" y="0.0" width="264" height="101.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scatman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naR-lj-kV1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="72.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="skeletonLineSpacing">
+                                                                <real key="value" value="0.0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="lastLineFillPercent">
+                                                                <integer key="value" value="40"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scatman John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBb-ap-2aa">
+                                                        <rect key="frame" x="0.0" y="40.5" width="117" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Best of Scatman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZrP-Co-ame">
+                                                        <rect key="frame" x="0.0" y="81" width="157.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHiddenWhenSkeletonIsActive" value="NO"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="linesCornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="7eC-1s-iEX"/>
+                                    <constraint firstItem="Ezv-iV-o0h" firstAttribute="leading" secondItem="Puk-s6-9Sd" secondAttribute="leading" constant="20" id="G6b-QX-UGF"/>
+                                    <constraint firstItem="Ezv-iV-o0h" firstAttribute="top" secondItem="Puk-s6-9Sd" secondAttribute="top" constant="40" id="Kto-i9-ODK"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ezv-iV-o0h" secondAttribute="bottom" constant="40" id="eeb-Dw-zdv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ezv-iV-o0h" secondAttribute="trailing" constant="20" id="n8Q-55-SE7"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7mS-sO-MYi">
+                                <rect key="frame" x="0.0" y="444" width="414" height="347"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <sections/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XVU-KZ-9qD" firstAttribute="top" secondItem="7mS-sO-MYi" secondAttribute="bottom" constant="20" id="E2v-2X-dNN"/>
+                            <constraint firstAttribute="trailing" secondItem="Puk-s6-9Sd" secondAttribute="trailing" id="G1I-Rl-w67"/>
+                            <constraint firstItem="7mS-sO-MYi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Phd-K1-tDe"/>
+                            <constraint firstItem="XVU-KZ-9qD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UGC-u6-SYT"/>
+                            <constraint firstItem="nbg-P4-dRH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yip-r4-XfV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nbg-P4-dRH" secondAttribute="trailing" id="aug-y9-wIm"/>
+                            <constraint firstItem="Puk-s6-9Sd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bXQ-Fe-7sf"/>
+                            <constraint firstItem="Puk-s6-9Sd" firstAttribute="top" secondItem="nbg-P4-dRH" secondAttribute="bottom" id="hCs-yX-diT"/>
+                            <constraint firstItem="nbg-P4-dRH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hZw-rT-NrM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7mS-sO-MYi" secondAttribute="trailing" id="jqE-s5-xi2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XVU-KZ-9qD" secondAttribute="bottom" constant="20" id="xCF-ED-qNS"/>
+                            <constraint firstItem="7mS-sO-MYi" firstAttribute="top" secondItem="Puk-s6-9Sd" secondAttribute="bottom" id="zm0-ZA-ryf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="album" destination="q0T-i2-T1z" id="7eb-mW-Qfc"/>
+                        <outlet property="albumStack" destination="ZrP-Co-ame" id="E5P-mz-iDN"/>
+                        <outlet property="artist" destination="dzq-W1-RAY" id="fgi-kC-chN"/>
+                        <outlet property="artistStack" destination="RBb-ap-2aa" id="dQ3-S4-IaC"/>
+                        <outlet property="image" destination="tWA-WG-cZg" id="S4p-am-dx4"/>
+                        <outlet property="imageStack" destination="VKh-S7-E0T" id="CwZ-Sa-CCe"/>
+                        <outlet property="musicName" destination="Mf8-8J-br4" id="b5W-IS-Np7"/>
+                        <outlet property="musicNameStack" destination="naR-lj-kV1" id="1eu-F0-sjL"/>
+                        <outlet property="shimmerTableview" destination="7mS-sO-MYi" id="jo2-Rl-z5P"/>
+                        <outlet property="switchShimmer" destination="XVU-KZ-9qD" id="J60-NR-hyn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="182.60869565217394" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="scatman" width="400" height="400"/>
+    </resources>
+</document>
